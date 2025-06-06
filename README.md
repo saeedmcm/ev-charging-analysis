@@ -129,7 +129,7 @@ holidays>=0.11.1
 ## Installation
 1. Clone this repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/saeedmcm/ev-charging-analysis.git
 ```
 
 2. Create a virtual environment (optional but recommended):
