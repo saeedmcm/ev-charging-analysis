@@ -11,12 +11,14 @@ folium>=0.12.1
 keplergl>=0.3.2
 ipywidgets>=7.6.5
 branca>=0.4.2
+shap>=0.41.0
 
 # Machine Learning & Deep Learning
 scikit-learn>=0.24.2
 xgboost>=1.4.2
 torch>=1.9.0
 optuna>=2.10.0
+imgkit>=1.2.2
 
 # Time Series Analysis
 prophet>=1.0
