@@ -37,8 +37,7 @@ This project analyzes electric vehicle (EV) charging station usage patterns and 
 ### Key Features
 - Comprehensive analysis of EV charging station utilization patterns
 - Evaluation of fee policy impact on station usage
-- Time series forecasting for energy consumption
-- Multi-output prediction models for port availability
+- Time series forecasting via Multi-output prediction for energy consumption and port availability
 - Interactive geospatial visualizations
 - Statistical analysis of usage patterns
 
@@ -65,7 +64,6 @@ This project analyzes electric vehicle (EV) charging station usage patterns and 
    - Temporal pattern analysis
    - Spatial distribution visualization
    - Statistical analysis
-   - Correlation studies
 
 4. **Policy Impact Analysis**
    - Pre-post fee policy implementation comparison
@@ -80,7 +78,7 @@ This project analyzes electric vehicle (EV) charging station usage patterns and 
 ## Key Findings
 
 ### Deep Learning Model Performance
-- Developed a novel multi-output deep learning architecture that simultaneously predicts energy demand and port availability
+- Developed a multi-output deep learning architecture that simultaneously predicts energy demand and port availability
 - Achieved superior forecasting accuracy compared to single-task models
 - Successfully captured temporal dependencies and seasonal patterns in charging behavior
 - Demonstrated robust performance across different urban contexts and charging station types
@@ -88,13 +86,10 @@ This project analyzes electric vehicle (EV) charging station usage patterns and 
 ### Policy Impact Analysis
 - Identified key urban characteristics that influence charging station utilization
 - Quantified the effectiveness of various policy interventions on infrastructure usage
-- Provided evidence-based recommendations for policy makers and urban planners
 - Developed a framework for assessing policy impacts on charging infrastructure
 
 ### Urban Infrastructure Optimization
-- Created data-driven insights for optimal charging station placement
 - Analyzed the relationship between urban features and charging demand patterns
-- Developed recommendations for infrastructure scaling based on urban characteristics
 - Identified critical factors for successful EV charging infrastructure deployment
 
 ## Requirements
@@ -159,7 +154,6 @@ jupyter notebook Final_EV_Notebook.ipynb
 - Detailed analysis of EV charging patterns
 - Impact assessment of fee policy implementation
 - Predictive model performance metrics
-- Recommendations for infrastructure optimization
 
 ## Contributing
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
@@ -168,17 +162,17 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact
-[Your Name] - [Your Email]
+Saeed Makaremi - saeed.makaremi@gmail.com
 
-Project Link: [https://github.com/yourusername/your-repo-name]
+Project Link: https://github.com/saeedmcm/ev-charging-analysis
 
 ## Citations
-If you use this work in your research, please cite our published papers:
+If you use this work in your research, please cite my published papers:
 
 ```bibtex
 @article{makaremi2025multi,
   title={A multi-output deep learning model for energy demand and port availability forecasting in EV charging infrastructure},
-  author={Makaremi, Seed and [Other Authors]},
+  author={Makaremi, Saeed},
   journal={Energy},
   volume={},
   pages={134582},
@@ -189,7 +183,7 @@ If you use this work in your research, please cite our published papers:
 
 @article{makaremi2024policy,
   title={Policy interventions and urban characteristics in modeling electric vehicle charging infrastructure utilization},
-  author={Makaremi, Seed and [Other Authors]},
+  author={Makaremi, Saeed},
   journal={Case Studies on Transport Policy},
   volume={},
   pages={101309},
